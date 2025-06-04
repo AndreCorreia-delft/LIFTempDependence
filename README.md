@@ -2,7 +2,7 @@
 
 [![MATLAB](https://img.shields.io/badge/Code*MATLAB*orange)](https://www.mathworks.com/products/matlab.html)
 
-This repository provides MATLAB code for analyzing the **temperature dependence of laser-induced fluorescence (LIF)** signals in gas*phase species, with a particular focus on NO and OH. It simulates excitation spectra across a defined temperature range and evaluates the temperature sensitivity of selected absorption transitions.
+This repository provides MATLAB code for analyzing the **temperature dependence of laser-induced fluorescence (LIF)** signals in gas-phase species, with a particular focus on NO and OH. It simulates excitation spectra across a defined temperature range and evaluates the temperature sensitivity of selected absorption transitions.
 
 ## Description
 
@@ -13,7 +13,7 @@ The script performs the following steps:
 * Calculates the temperature sensitivity (`dI/dT`) of the most intense transitions.
 * Outputs the least temperature*dependent transitions for experimental targeting.
 
-The final result is a colored excitation spectrum map with overlayed labels for the least temperature*sensitive peaks.
+The final result is a colored excitation spectrum map with overlayed labels for the least temperature-sensitive peaks.
 
 ## History
 
