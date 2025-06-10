@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Silva Correia
+    given-names: André	
+    orcid: https://orcid.org/0009-0004-6075-4530
+title: "LIFTempDependence"
+version: 1.0.0
+identifiers:
+  - type: doi
+    value: 10.4121/dd222007-8c0f-4cde-a642-5e4580324af6
+date-released: 2025-06-10
