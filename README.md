@@ -96,7 +96,12 @@ This repository contains the following structure:
 
 The `./src/`directory contains the MATLAB (live) scripts where the temperature dependence of the absorption spectrum (`tempDependenceABS.mlx`) and fluorescence excitation spectrum (`tempDependenceFLUO.mlx`) are calculated for a single species (e.g., NO, OH, ...). 
 
-The `./input-data/` directory contains the filter data and gas-composition data to be provided as input to the MATLAB (live) scripts found in `./src/`. `./input-data/filters/*.xlsx` include the detection filters to be used with the same format that LIFSIM requires (first collumn - wavelength, second collumn - transmissivity). `./input-data/gas-compositions/F_PLIF_OH_NO.mat` includes the flame temperature (`Tflame`), NO molar concentration (`Y_NO`), OH molar concentration (`Y_OH`) and the simulation grid in m (`z`) of a 1D CH4/air free-flame simulation at different given equivalence rations (`phi`). 
+The `./input-data/` directory contains the filter data and gas-composition data to be provided as input to the MATLAB (live) scripts found in `./src/`. `./input-data/filters/*.xlsx` include the detection filters to be used with the same format that LIFSIM requires (first collumn - wavelength, second collumn - transmissivity). `./input-data/gas-compositions/F_PLIF_OH_NO.mat` includes the following data for a 1D CH4/air free-flame simulation:
+- `Tflame` - flame temperature
+- `Y_NO` - NO molar concentration 
+- `Y_OH` - OH molar concentration 
+- `z` - simulation grid in m 
+- `phi` - equivalence ratios used for the free-flame simulations (`phi`). 
 
 The `./output-data/` directory contains the expected outputs when running the default settings in the MATLAB (live) scripts. These outputs are also displayed in the MATLAB live scripts themselves. `./output-data/dIdT_ABS.mat` and `./output-data/dIdT_FLUO.mat` contain the data to reconstruct the output:
 - `Tset` includes the set of temperatures used 
