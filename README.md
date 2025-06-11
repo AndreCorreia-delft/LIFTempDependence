@@ -125,7 +125,7 @@ When running the scripts with the default provided values for NO, the expected o
 
 ## License
 
-The contents of this repository are licensed under a **GNU Affero General Public License 3.0** (see [LICENSE](LICENSE.txt) file).
+The contents of this repository are licensed under a **GNU Affero General Public License 3.0** (see [LICENSE](LICENSE) file).
 
 Copyright notice:
 
