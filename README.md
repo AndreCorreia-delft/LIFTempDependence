@@ -148,7 +148,7 @@ This code is part of the project file 20312 of the research programme NWO Talent
 ## Citation
 
 If you use this repository in your work, please cite:   
-A. Silva Correia (2025) LIFTempDependence. Version 1. 4TU.ResearchData. software. https://doi.org/10.4121/dd222007-8c0f-4cde-a642-5e4580324af6.v1
+A. Silva Correia (2025) LIFTempDependence. Version 1. 4TU.ResearchData. software. https://doi.org/10.4121/dd222007-8c0f-4cde-a642-5e4580324af6.v1 (DOI will become active upon article publication)
 
 
 ## Would you like to contribute?
